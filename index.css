@@ -1,0 +1,82 @@
+body {
+    align-content: center;
+    font-family: "Inter";
+    font-weight: 400;
+    background-color: black;
+}
+
+button {
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 34px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #F4F4F4;
+    width: 550px;
+    height: auto;
+}
+
+.top {
+    background-color: #6943FF;
+    width: 550px;
+    height: 285px;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.title {
+    color: white;
+    margin-top: 33px;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.value {
+    background-color: #6943FF;
+    width: 117px;
+    height: 63px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 58px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.bottom {
+    width: 550px;
+    height: 440px;
+}
+
+.tile {
+    background-color: white;
+    border-radius: 5px;
+    width: 500px;
+    height: 108.57px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.15), 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.tileTitle {
+    padding-top: 20px;
+    color: #5A537B;
+}
+
+.tileText {
+    color: #353535;
+}
