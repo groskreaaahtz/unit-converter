@@ -12,6 +12,7 @@ convertBtn.addEventListener("click", function () {
     convertLength();
     convertVolume();
     convertMass();
+    goof();
 });
 
 function convertLength() {
@@ -31,3 +32,9 @@ function convertMass() {
     pounds = inputEl.value * 2.204;
     massEl.innerText = `${inputEl.value} kilograms = ${pounds.toFixed(2)} gallons | ${inputEl.value} gallons = ${kilograms.toFixed(2)} kilograms`;
 }
+
+function goof() {
+    if (inputEl.value >= 9000 && inputEl.value < 10000) {
+        console.log(`🥬 What!? 9000!? There's no way that can be right! 🥬`);
+    }
+};

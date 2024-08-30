@@ -6,7 +6,7 @@ body {
 }
 
 button {
-    padding: 10px 25px;
+    padding: 10px 15px;
     border-radius: 5px;
     border: 1px solid #ffffff;
     background-color: #ffffff;
@@ -30,7 +30,7 @@ button {
 .top {
     background-color: #6943FF;
     width: 550px;
-    height: 285px;
+    height: auto;
     text-align: center;
     border-radius: 5px 5px 0 0;
 }
@@ -44,7 +44,7 @@ button {
 
 .value {
     background-color: #6943FF;
-    width: 117px;
+    width: 65%;
     height: 63px;
     border: 2px solid #B295FF;
     border-radius: 5px;
@@ -56,16 +56,21 @@ button {
     margin-bottom: 30px;
 }
 
+.dbz-joke {
+    padding: 15px 0;
+    color: orange;
+}
+
 .bottom {
     width: 550px;
-    height: 440px;
+    height: auto;
 }
 
 .tile {
     background-color: white;
     border-radius: 5px;
     width: 500px;
-    height: 108.57px;
+    height: auto;
     margin: auto;
     margin-top: 30px;
     text-align: center;
@@ -79,4 +84,5 @@ button {
 
 .tileText {
     color: #353535;
+    padding-bottom: 25px;
 }
